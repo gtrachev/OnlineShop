@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node /server/src/app.js",
-    "build": "cd react-ui/ && npm install && npm run build"
+    "start": "cd server/src && node app.js"
   },
   "author": "gtrachev",
   "license": "ISC",
